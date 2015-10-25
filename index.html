@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diamonds in Singapore</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Diamonds in Singapore">
+  <meta name="author" content="Satya Sreenivasan">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Diamonds in Singapore</h1>
+    <h2>Pricing the C's of Diamond stones</h2>
+    <p>Satya Sreenivasan<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Purpose of this Presentation</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This is a Pitch Presentation for the &#39;Developing Data Products&#39; Coursera class. The purpose of the project is to demonstrate ability to create an interactive app using the &#39;shiny&#39; package and then use either &#39;slidify&#39; or &#39;RStudio Presenter&#39; to create a slidedeck for the pitch presentation. I have chosen to create my slidedeck using &#39;slidify&#39;.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>About the Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>After looking around several days for meaningful datasets to be used for this project, I decided to use the &#39;Diamond&#39; dataset that is found in the Ecdat package. Since the dataset is from Singapore where I live, and diamonds are a girl&#39;s best friend, I decided to proceed with this data.</p>
+
+<p>The source for the dataset is:  Chu, Singfat (2001), Pricing the C&#39;s of Diamond Stones, Journal of Statistics Education Volume 9, Number 2 (2001), <a href="http://www.amstat.org/publications/jse/v9n2/datasets.chu.html">http://www.amstat.org/publications/jse/v9n2/datasets.chu.html</a>.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>About the data</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The price of diamond jewelry depends on the four C&#39;s: caratage, cut, colour, and clarity of the diamond stone. A good cut gives a diamond more sparkle. Colourless diamonds are the most prized. A flawless diamond has maximum clarity because the passage of light is unimpeded through the stone.</p>
+
+<p>This dataset contains information on {308} diamond stones - their price and 4 other attributes namely: </p>
+
+<pre><code>## &#39;data.frame&#39;:    308 obs. of  5 variables:
+##  $ carat        : num  0.3 0.3 0.3 0.3 0.31 0.31 0.31 0.31 0.31 0.31 ...
+##  $ colour       : Factor w/ 6 levels &quot;D&quot;,&quot;E&quot;,&quot;F&quot;,&quot;G&quot;,..: 1 2 4 4 1 2 3 4 5 6 ...
+##  $ clarity      : Factor w/ 5 levels &quot;IF&quot;,&quot;VS1&quot;,&quot;VS2&quot;,..: 3 2 4 2 2 2 2 5 3 2 ...
+##  $ certification: Factor w/ 3 levels &quot;GIA&quot;,&quot;HRD&quot;,&quot;IGI&quot;: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ price        : int  1302 1510 1510 1260 1641 1555 1427 1427 1126 1126 ...
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Utility of the Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>By playing around with the attributes for X and Y axes and the color, one can infer the relative worth of the different grades of colour and clarity and whether differences in prices can be attributed to the 3 different certification bodies. Hopefully, this is of interest to students of Statistics/Data Science who are looking to buy a diamond :)</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Purpose of this Presentation'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='About the Application'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='About the data'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Utility of the Application'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
